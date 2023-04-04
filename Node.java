@@ -1,30 +1,33 @@
 public class Node {
 
-    public String nodeid;
-    public int x;
-    public int y;
+    private String nodeid;
+    private int x;
+    private int y;
 
     // how we get our nodes
     public Node(String nodeid, int x, int y) {
-        nodeid = nodeid;
-        x = x;
-        y =y;
+        this.nodeid = nodeid;
+        this.x = x;
+        this.y =y;
     }
 
     public String getNodeid(){
+
         return nodeid;
     }
 
-    public void setNodeid(String nodeid){
-        nodeid = nodeid;
+    public void setNodeid(String nodeid) {
+
+        this.nodeid = nodeid;
+
     }
 
     public int getX() {
         return x;
     }
 
-    public void setx(int x) {
-        x =x;
+    public void setX(int x) {
+        this.x =x;
     }
 
 
@@ -34,7 +37,8 @@ public class Node {
     }
     // Sets the Y position of a node
     public void sety() {
-        y = y;
+
+        this.y = y;
     }
 
 
